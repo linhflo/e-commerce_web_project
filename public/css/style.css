@@ -1,0 +1,34 @@
+.timer{
+    text-align: center;
+    color: white;
+    padding: 50px 0;
+}
+.timer p{
+    font-size: 100px;
+    font-weight: bold;
+}
+
+@media (min-width: 768px){
+    .container{
+        margin: 10% auto;
+    }
+    #timer-up{
+        border-radius: 5px 0 0 5px;
+        margin-right: -15px;
+    }
+    #timer-down{
+        margin-left: -15px;
+        border-radius: 0 5px 5px 0;
+    }
+}
+@media (max-width: 768px) {
+    .container{
+        margin: 5% auto;
+    }
+    #timer-up{
+        border-radius: 5px 5px 0 0;
+    }
+    #timer-down{
+        border-radius: 0 0 5px 5px;
+    }
+}
